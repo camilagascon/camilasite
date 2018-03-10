@@ -1,0 +1,377 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  background-color: #333;
+  border: 1px solid #fff;
+}
+.btn-default:hover,
+.btn-default:focus {
+  background-position: 0 -45px;
+}
+
+
+/*
+ * Base structure
+ */
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.cover-wrapper {
+  display: table;
+  width: 100%;
+  height: 100vh; /* For at least Firefox */
+  min-height: 100%;
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  color: white;
+  background-size: cover;
+  background-position: 80% 20%;
+  background-image: url(backgroundCAMI.jpg); /* This is your cover image! */
+  padding:32px;
+}
+.cover-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+  padding:10px;
+  padding-top: 100px;
+
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+h1.cover-heading {
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 80px;
+}
+
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Handle the widths */
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .cover-container {
+    width: 600px;
+  }
+}
+
+
+
+/*
+ * Andrew's Schweet Styles
+ */
+
+body {
+  font-size: 16px
+}
+
+body > .container,
+body > .container-fluid {
+    padding: 60px 0;
+}
+
+h1:not(.cover-heading) {
+  margin-bottom: 60px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+p {
+  margin-bottom: 20px
+  text-align:left;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+.alert-success {
+  background-color: #dff0d8;
+}
+
+
+/*
+ * In-class tutorial styles
+ */
+
+.title {
+  font-size: 60px;
+  text-align: cover-container;
+}
+
+.unput.button: {
+color: black;
+}
+.mc_embed_signup{
+  background:#000;
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif;  width:320px color:#eee;
+}
+body{
+  font:14px/20px 'Helvetica', Arial, sans-serif;
+  margin:0;
+  padding:75px 0 0 0;
+  text-align:center;
+  -webkit-text-size-adjust:none;
+}
+p{
+  padding:0 0 10px 0;
+}
+.headerBar{
+  background:none;
+  padding:0;
+  border:none;
+}
+.wrapper{
+  width:600px;
+  margin:0 auto 10px auto;
+  text-align:left;
+}
+input.button{
+  border:none !important;
+}
+.button{
+  display:inline-block;
+  font-weight:500;
+  font-size:16px;
+  line-height:42px;
+  font-family:'Helvetica', Arial, sans-serif;
+  width:auto;
+  white-space:nowrap;
+  height:42px;
+  margin:12px 5px 12px 0;
+  padding:0 22px;
+  text-decoration:none;
+  text-align:center;
+  cursor:pointer;
+  border:0;
+  border-radius:3px;
+  vertical-align:top;
+}
+.button span{
+  display:inline;
+  font-family:'Helvetica', Arial, sans-serif;
+  text-decoration:none;
+  font-weight:500;
+  font-style:normal;
+  font-size:16px;
+  line-height:42px;
+  cursor:pointer;
+  border:none;
+  padding: 20px;
+}
+.rounded6{
+  border-radius:6px;
+}
+.poweredWrapper{
+  padding:20px 0;
+  width:560px;
+  margin:0 auto;
+}
+.poweredBy{
+  display:block;
+}
+span.or{
+  display:inline-block;
+  height:32px;
+  line-height:32px;
+  padding:0 5px;
+  margin:5px 5px 0 0;
+}
+.clear{
+  clear:both;
+}
+.profile-list{
+  display:block;
+  margin:15px 20px;
+  padding:0;
+  list-style:none;
+  border-top:1px solid #eee;
+}
+.profile-list li{
+  display:block;
+  margin:0;
+  padding:5px 0;
+  border-bottom:1px solid #eee;
+}
+html[dir=rtl] .wrapper,html[dir=rtl] .container,html[dir=rtl] label{
+  text-align:right !important;
+}
+html[dir=rtl] ul.interestgroup_field label{
+  padding:0;
+}
+html[dir=rtl] ul.interestgroup_field input{
+  margin-left:5px;
+}
+html[dir=rtl] .hidden-from-view{
+  right:-5000px;
+  left:auto;
+}
+body,#bodyTable{
+  background-color:#eeeeee;
+}
+
+}
+#templateContainer{
+  background-color:none;
+}
+#templateBody{
+  background-color:none ;
+}
+.bodyContent{
+  line-height:150%;
+  font-size:14px;
+  color:#333333;
+  padding:20px;
+}
+a:link,a:active,a:visited,a{
+  color:#336699;
+}
+.button:link,.button:active,.button:visited,.button,.button span{
+  background-color:#fff !important;
+  color:#000 !important;
+}
+.button:hover{
+  background-color:#444444 !important;
+  color:#ffffff !important;
+}
+label{
+  line-height:150%;
+  font-family:Helvetica;
+  font-size:16px;
+  color:#5d5d5d;
+}
+.field-group input,select,textarea,.dijitInputField{
+  font-family:Helvetica;
+  color:#5d5d5d !important;
+}
+.asterisk{
+  color:#cc6600;
+  font-size:20px;
+}
+label .asterisk{
+  visibility:hidden;
+}
+.indicates-required{
+  display:none;
+}
+.field-help{
+  color:#777;
+}
+.error,.errorText{
+  color:#e85c41;
+  font-weight:bold;
+}
+@media (max-width: 620px){
+body{
+  width:100%;
+  -webkit-font-smoothing:antialiased;
+  padding:10px 0 0 0 !important;
+  min-width:300px !important;
+}
+
+}	@media (max-width: 620px){
+.wrapper,.poweredWrapper{
+  width:auto !important;
+  max-width:600px !important;
+  padding:0 10px;
+}
+
+}	@media (max-width: 620px){
+#templateContainer,#templateBody,#templateContainer table{
+  width:100% !important;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+}	@media (max-width: 620px){
+.addressfield span{
+  width:auto;
+  float:none;
+  padding-right:0;
+}
+
+}	@media (max-width: 620px){
+.captcha{
+  width:auto;
+  float:none;
+}
+.h4{
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+
+}
+.margin {margin-bottom: 45px;}
+
+.formulario {
+vertical-align: bottom;
+}
+.jumbotron{
+  background-color: none;
+}
+.spacer {
+    margin-top: 40px; /* define margin as you see fit */
+}
+.row1 {
+  margin: 100px;
+}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 600px;
+  /* equal to footer height */
+  margin-bottom: -142px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px;
+}
+.site-footer {
+}
